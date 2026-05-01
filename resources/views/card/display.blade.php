@@ -5,7 +5,7 @@
   <title>My VIP Membership Card — {{ $transaction->user->name }}</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="{{ asset('css/master.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('css/master.css') }}">
   <style>
     @media print{.no-print{display:none!important;}.card-display-page{background:#000;padding:0;}.vip-card{max-width:100%;box-shadow:none;border:2px solid #9A7A2E;}}
   </style>
